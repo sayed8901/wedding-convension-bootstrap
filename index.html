@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Poppins:wght@400;700;800&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+      body{
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8bae764387.js" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+
+    <header class="container-lg">
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-md py-3 position-absolute">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-semibold text-white" href="#">Convension Center</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Subscribe</a>
+              </li>
+        </div>
+      </nav>
+
+      <!-- banner slider -->
+      <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel" style="z-index: -1;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner-1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- wedding album section -->
+      <div class="container-lg">
+        <section class="my-5">
+          <div class="row row-cols-1 row-cols-sm-2 pt-5">
+            <div class="col pb-3">
+              <img class="w-100" src="images/wedding.png" alt="">
+            </div>
+            <div class="col">
+              <h1>Every Moment is <span class="text-danger">Precious</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet repellat quisquam consequuntur pariatur, quidem architecto vitae!</p>
+              <button type="button" class="btn btn-primary">Explore our album
+                <img src="icons/arrow-forward 1.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      <!-- Packages Section -->
+
+
+
+      <!-- happy clients -->
+      <section class="container-lg">
+        <h1 class="text-center py-5">Happy <span class="text-danger">Clients</span></h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 text-center">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <img src="images/person 1.png" class="card-img-top w-75 mx-auto mb-4" alt="...">
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </p>
+                <h5 class="text-success">Michel Jackson</h5>
+                <p>Banker, Boston</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <p class="card-text">This is a short card. This content is not a bit long.</p>
+                <img src="images/person 2.png" class="card-img-top w-75 mx-auto mb-4" alt="...">
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </p>
+                <h5 class="text-success">Michel Jackson</h5>
+                <p>Banker, Boston</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <img src="images/person 3.png" class="card-img-top w-75 mx-auto mb-4" alt="...">
+                <p class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </p>
+                <h5 class="text-success">Michel Jackson</h5>
+                <p>Banker, Boston</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ section -->
+      <section class="container-lg p-5 mt-5 rounded-3">
+        <h1 class="text-center">Frequently Asked <span class="text-danger">Questions</span></h1>
+        <div class="row row-cols-1 row-cols-md-2 g-5 pb-5 mt-2">
+          <div class="col">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img class="w-100" src="images/people.png" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="container-lg bg-black">
+      <div class="row">
+        <div class="col-12 col-sm-8 pt-5 ps-5">
+          <div class="d-flex flex-row text-white">
+            <p class="pe-4">Download Now</p>
+            <p>License</p>
+          </div>
+          <div class="d-flex flex-row flex-wrap text-white my-3">
+            <p class="pe-4">About</p>
+            <p class="pe-4">Features</p>
+            <p class="pe-4">Pricing</p>
+            <p class="pe-4">Careers</p>
+            <p class="pe-4">Help</p>
+            <p>Privacy Policy</p>
+          </div>
+          <div class="d-flex flex-row text-white">
+            <p class="text-center text-md-start">&copy 2023 bike. All rights reserved.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 p-5 text-white">
+          <h5>Get the App</h5>
+          <img class="w-75 my-3" src="icons/android.png" alt="">
+          <img class="w-75"  src="icons/ios.png" alt="">
+        </div>
+      </div>
+    </footer>
+    
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  </body>
+</html>
